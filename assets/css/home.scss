@@ -1,0 +1,32 @@
+---
+---
+
+@import "base";
+
+body {
+    text-align: center;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+
+        .center-img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+    }
+
+    footer {
+        padding: 20px 0;
+
+        a {
+            color: #007bff;
+            text-decoration: underline;
+        }
+    }
+}

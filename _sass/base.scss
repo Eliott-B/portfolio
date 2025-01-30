@@ -1,9 +1,12 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
+$backgroundColor: #272727;
+$bodyColor: snow;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
-body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
+html {
+    background: $backgroundColor;
+    color: $bodyColor;
+
+    body {
+        font-family: $bodyFont;
+    }
 }

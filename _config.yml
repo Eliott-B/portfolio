@@ -1,3 +1,9 @@
-url: "https://www.eliott-b.fr" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+url: "https://www.eliott-b.fr"
+baseurl: ""
+title: "Eliott B"
+email: contact@eliott-b.fr
+description: >-
+  Portfolio d'Eliott Barker, développeur full-stack.
+
+plugins:
+  - jemoji
