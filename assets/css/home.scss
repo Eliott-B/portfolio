@@ -23,10 +23,15 @@ body {
 
     footer {
         padding: 20px 0;
+        font-style: italic;
 
         a {
             color: #007bff;
             text-decoration: underline;
+        }
+
+        a:hover {
+            color: #0056b3;
         }
     }
 }
