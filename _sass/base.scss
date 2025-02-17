@@ -51,8 +51,16 @@ html {
         }
 
         footer {
-            padding: 20px 0;
+            margin: 20px 0;
             font-style: italic;
+
+            p {
+                margin: 7px;
+            }
+
+            .last-updated {
+                font-size: 0.8em;
+            }
         }
     }
 }
