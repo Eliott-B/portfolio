@@ -4,6 +4,15 @@ title: "Eliott B"
 email: contact@eliott-b.fr
 description: >-
   Portfolio d'Eliott Barker, développeur full-stack.
+author: Eliott Barker
+lang: "fr-FR"
 
 plugins:
   - jemoji
+
+include:
+  - _pages
+
+projects:
+  output: true
+  permalink: /projets/:path/
