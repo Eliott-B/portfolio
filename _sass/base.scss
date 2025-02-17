@@ -62,5 +62,11 @@ html {
                 font-size: 0.8em;
             }
         }
+
+        .content {
+            .no-wrap {
+                white-space: nowrap;
+            }
+        }
     }
 }
