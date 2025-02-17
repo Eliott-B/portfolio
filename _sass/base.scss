@@ -8,5 +8,50 @@ html {
 
     body {
         font-family: $bodyFont;
+
+        a {
+            color: #007bff;
+            text-decoration: underline;
+
+            &:hover {
+                color: #0056b3;
+            }
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            li {
+                display: inline-block;
+                margin-right: 10px;
+
+                a {
+                    padding: 0.3em;
+                    border: $bodyColor solid 1px;
+                    border-radius: 15px;
+
+                    color: $bodyColor;
+                    text-decoration: none;
+
+                    &:hover {
+                        background: #404040;
+                        color: $backgroundColor;
+                        transition: background 0.75s, color 0.75s;
+                    }
+
+                    &.active {
+                        background: #404040;
+                        color: $backgroundColor;
+                    }
+                }
+            }
+        }
+
+        footer {
+            padding: 20px 0;
+            font-style: italic;
+        }
     }
 }

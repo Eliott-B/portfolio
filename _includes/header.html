@@ -1,0 +1,32 @@
+<header>
+    <h1>Eliott Barker</h1>
+    <nav>
+        <ul>
+            {% if page.url == "/" %}
+                <li><a href="/" class="active">Accueil</a></li>
+            {% else %}
+                <li><a href="/">Accueil</a></li>
+            {% endif %}
+
+            {% if page.url == "/experiences" %}
+                <li><a href="/experiences" class="active">Experiences</a></li>
+            {% else %}
+                <li><a href="/experiences">Experiences</a></li>
+            {% endif %}
+
+            {% if page.url == "/formations" %}
+                <li><a href="/formations" class="active">Formations</a></li>
+            {% else %}
+                <li><a href="/formations">Formations</a></li>
+            {% endif %}
+            
+            {% if page.url == "/projets" %}
+                <li><a href="/projets" class="active">Projets</a></li>
+            {% else %}
+                <li><a href="/projets">Projets</a></li>
+            {% endif %}
+            
+            <li><a href="/cv">Télécharger mon CV</a></li>
+        </ul>
+    </nav>
+</header>
