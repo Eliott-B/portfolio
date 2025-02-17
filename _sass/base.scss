@@ -8,6 +8,8 @@ html {
 
     body {
         font-family: $bodyFont;
+        opacity: 0;
+        transition: opacity .5s;
 
         a {
             color: #007bff;
@@ -26,25 +28,24 @@ html {
             li {
                 display: inline-block;
                 margin-right: 10px;
+                
+                padding: 0.3em;
+                border: $bodyColor solid 1px;
+                border-radius: 15px;
 
-                a {
-                    padding: 0.3em;
-                    border: $bodyColor solid 1px;
-                    border-radius: 15px;
+                color: $bodyColor;
+                text-decoration: none;
 
-                    color: $bodyColor;
-                    text-decoration: none;
+                &:hover {
+                    background: #404040;
+                    color: $backgroundColor;
+                    transition: background 0.75s, color 0.75s;
+                    cursor: pointer;
+                }
 
-                    &:hover {
-                        background: #404040;
-                        color: $backgroundColor;
-                        transition: background 0.75s, color 0.75s;
-                    }
-
-                    &.active {
-                        background: #404040;
-                        color: $backgroundColor;
-                    }
+                &.active {
+                    background: #404040;
+                    color: $backgroundColor;
                 }
             }
         }

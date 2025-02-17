@@ -1,32 +1,34 @@
+<script src="{{ '/assets/js/transition.js' | relative_url }}"></script>
+
 <header>
     <h1>Eliott Barker</h1>
     <nav>
         <ul>
             {% if page.url == "/" %}
-                <li><a href="/" class="active">Accueil</a></li>
+                <li onclick="transitionToPage('/')" class="active">Accueil</li>
             {% else %}
-                <li><a href="/">Accueil</a></li>
+                <li onclick="transitionToPage('/')">Accueil</li>
             {% endif %}
 
-            {% if page.url == "/experiences" %}
-                <li><a href="/experiences" class="active">Experiences</a></li>
+            {% if page.url == "/experiences/" %}
+                <li onclick="transitionToPage('/experiences')" class="active">Experiences</li>
             {% else %}
-                <li><a href="/experiences">Experiences</a></li>
+                <li onclick="transitionToPage('/experiences')">Experiences</li>
             {% endif %}
 
-            {% if page.url == "/formations" %}
-                <li><a href="/formations" class="active">Formations</a></li>
+            {% if page.url == "/formations/" %}
+                <li onclick="transitionToPage('/formations')" class="active">Formations</li>
             {% else %}
-                <li><a href="/formations">Formations</a></li>
+                <li onclick="transitionToPage('/formations')">Formations</li>
+            {% endif %}
+
+            {% if page.url == "/projets/" %}
+                <li onclick="transitionToPage('/projets')" class="active">Projets</li>
+            {% else %}
+                <li onclick="transitionToPage('/projets')">Projets</li>
             {% endif %}
             
-            {% if page.url == "/projets" %}
-                <li><a href="/projets" class="active">Projets</a></li>
-            {% else %}
-                <li><a href="/projets">Projets</a></li>
-            {% endif %}
-            
-            <li><a href="/cv">Télécharger mon CV</a></li>
+            <li>Télécharger mon CV</li>
         </ul>
     </nav>
 </header>
