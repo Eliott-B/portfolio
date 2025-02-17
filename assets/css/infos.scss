@@ -1,0 +1,17 @@
+---
+---
+
+@import "base";
+@import "center";
+
+.tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    img {
+        width: 60px;
+    }
+}
