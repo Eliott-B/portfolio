@@ -4,14 +4,26 @@
 @import "base";
 @import "center";
 
-.tech {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
+.content {
+    padding: 1px;
 
-    img {
-        width: 60px;
+    h2, h3, p {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .tech {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        margin: 0;
+        padding: 0;
+    
+        img {
+            width: 60px;
+        }
     }
 }
