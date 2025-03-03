@@ -62,6 +62,25 @@ html {
             .last-updated {
                 font-size: 0.8em;
             }
+
+            .social-links {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -10px;
+                padding-top: -10px;
+                margin-bottom: -10px;
+                padding-bottom: -10px;
+                
+                .icon {
+                    color: $bodyColor;
+                    text-decoration: none;
+                }
+
+                .icon:hover {
+                    color: #007bff;
+                }
+            }
         }
 
         .content {

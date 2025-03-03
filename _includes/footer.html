@@ -1,12 +1,21 @@
 <footer>
     <div class="footer-content">
-        <p>&copy; 2025 Eliott BARKER. Tous droits réservés.</p>
+        <p>&copy; 2025 Eliott Barker. Tous droits réservés.</p>
         <div class="social-links">
-            <a href="https://github.com/Eliott-B" target="_blank" rel="noopener noreferrer">GitHub</a> |
-            <a href="https://linkedin.com/in/e-barker" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-            <a href="mailto:contact@eliott-b.fr">contact@eliott-b.fr</a>
+            <a class="icon" href="https://github.com/Eliott-B" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="github"></i>
+            </a><pre> - </pre>
+            <a class="icon" href="https://linkedin.com/in/e-barker" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="linkedin"></i>
+            </a><pre> - </pre>
+            <a class="icon" href="mailto:contact@eliott-b.fr">
+                <i data-lucide="mail"></i>
+            </a>
         </div>
         <p><a href="/infos">Informations du site</a></p>
         <p class="last-updated">Dernière mise à jour : {{ site.time | date: "%-d %B %Y à %H:%M" }}</p>
     </div>
 </footer>
+
+<script src="{{ '/assets/js/vendor/lucide.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/icon.js' | relative_url }}"></script>
