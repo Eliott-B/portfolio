@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PublishIISAssets>true</PublishIISAssets>
+    <GHPagesBase>/</GHPagesBase>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +13,5 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.10" PrivateAssets="all" />
     <PackageReference Include="PublishSPAforGitHubPages.Build" Version="3.0.0" />
   </ItemGroup>
-
-  <GHPagesBase>/</GHPagesBase>
 
 </Project>
