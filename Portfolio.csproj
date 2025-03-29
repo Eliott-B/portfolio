@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PublishIISAssets>true</PublishIISAssets>
-    <GHPagesBase>/Portfolio</GHPagesBase>
+    <GHPagesBase>/</GHPagesBase>
   </PropertyGroup>
 
   <ItemGroup>
