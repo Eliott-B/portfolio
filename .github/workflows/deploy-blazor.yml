@@ -27,8 +27,7 @@ jobs:
         run: dotnet publish ./Portfolio.csproj -c:Release -p:GHPages=true -o release --nologo
 
       - name: Change base-tag in index.html
-        run: sed -i 's/<base href="\/" \/>/<base href="\/portfolio\/" \/>/g' release/wwwroot/index.html
-
+        run: sed -i 's/<base href="\/" \/>/<base href="\/Portfolio\/" \/>/g' dist/Web/wwwroot/index.html
       - name: Add .nojekyll file
         run: touch release/wwwroot/.nojekyll
 

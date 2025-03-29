@@ -5,8 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PublishIISAssets>true</PublishIISAssets>
-      <StaticWebAssetBasePath>/portfolio</StaticWebAssetBasePath>
-    <GHPagesBase>/</GHPagesBase>
+    <StaticWebAssetBasePath>/Portfolio</StaticWebAssetBasePath>
+    <GHPagesBase>/Portfolio</GHPagesBase>
   </PropertyGroup>
 
   <ItemGroup>
